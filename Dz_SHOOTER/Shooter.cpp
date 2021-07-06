@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 
 using namespace std;
@@ -21,38 +21,38 @@ void main()
 		{
 		case 87:
 		case UP_ARROW:
-		case 119:cout << "Âïåðåä" << endl;
+		case 119:cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl;
 			break;
 		case 115:
 		case DOWN_ARROW:
-		case 83:cout << "Íàçàä" << endl;
+		case 83:cout << "ÐÐ°Ð·Ð°Ð´" << endl;
 			break;
 		case 97:
 		case LEFT_ARROW:
-		case 65:cout << "Âëåâî" << endl;
+		case 65:cout << "Ð’Ð»ÐµÐ²Ð¾" << endl;
 			break;
 		case 100:
 		case RIGHT_ARROW:
-		case 68:cout << "Âïðàâî" << endl;
+		case 68:cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl;
 			break;
-		case ' ':cout << "Ïðûæîê" << endl;
+		case ' ':cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl;
 			break;
 		case 13:
 			if (ammo > 0)
 			{
 				ammo--;
-				cout << "Îãîíü" << endl;
-				cout << "Îñòàëîñü " << ammo << " ïàòðîíîâ" << endl;
+				cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl;
+				cout << "ÐžÑÑ‚Ð°Ð»Ð¾ÑÑŒ " << ammo << " Ð¿Ð°Ñ‚Ñ€Ð¾Ð½Ð¾Ð²" << endl;
 			}
 			else
 			{
-				cout << "Íóæíî ïåðåçàðèäèòü îðóæèå(Êíîïêà R,r)" << endl;
+				cout << "ÐÑƒÐ¶Ð½Ð¾ Ð¿ÐµÑ€ÐµÐ·Ð°Ñ€Ð¸Ð´Ð¸Ñ‚ÑŒ Ð¾Ñ€ÑƒÐ¶Ð¸Ðµ(ÐšÐ½Ð¾Ð¿ÐºÐ° R,r)" << endl;
 			}
 			break;
 		case 114:
 		case 82:
 			ammo = 20;
-			cout << "Îðóæèå ïåðåçàðÿæåíî äîñòóïíî " << ammo << " ïàòðîíîâ" << endl;
+			cout << "ÐžÑ€ÑƒÐ¶Ð¸Ðµ Ð¿ÐµÑ€ÐµÐ·Ð°Ñ€ÑÐ¶ÐµÐ½Ð¾ Ð´Ð¾ÑÑ‚ÑƒÐ¿Ð½Ð¾ " << ammo << " Ð¿Ð°Ñ‚Ñ€Ð¾Ð½Ð¾Ð²" << endl;
 			break;
 		default:
 			if (key != -32 && key != Escape)

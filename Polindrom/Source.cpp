@@ -1,11 +1,11 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 void main()
 {
 	setlocale(LC_ALL, "Russian");
 	int number = 0, revers_number = 0, copy = 0;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> number;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> number;
 	copy = number;
 	while (copy > 0)
 	{
@@ -15,10 +15,10 @@ void main()
 	}
 	if (revers_number==number)
 	{
-		cout << "×èñëî ïàëèíäðîì";
+		cout << "Ð§Ð¸ÑÐ»Ð¾ Ð¿Ð°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼";
 	}
 	else
 	{
-		cout << "×èñëî íå ïàëèíäðîì";
+		cout << "Ð§Ð¸ÑÐ»Ð¾ Ð½Ðµ Ð¿Ð°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼";
 	}
 }
